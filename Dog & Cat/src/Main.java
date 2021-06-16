@@ -33,8 +33,5 @@ public class Main {
         dog2.getInfo();
         dog3.getInfo();
 
-        cat1.getInfo();
-        cat2.getInfo();
-
     }
 }
