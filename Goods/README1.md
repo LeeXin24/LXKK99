@@ -20,6 +20,8 @@ class Main {
     }
 }
 ```
+运行结果:
+Derived::show() called
 
 #### 2.
 ```
@@ -42,6 +44,8 @@ class Main {
     }
 }
 ```
+运行结果:
+Base::show() called
 
 #### 3.
 ```
@@ -71,6 +75,10 @@ class Main{
     }
 }
 ```
+运行结果:
+Base
+Derived
+Derived
 
 #### 4.
 
@@ -80,7 +88,7 @@ class Base {
 }
   
 class Derived extends Base {
-    private void foo() { System.out.println("Derived"); } 
+    private void foo() { System.out.println("Derived"); } //Derived中的foo()无法覆盖Base中的foo()
 }
   
 public class Main {
@@ -90,6 +98,8 @@ public class Main {
     }
 } 
 ```
+运行结果:
+Derived
 
 #### 5.
 
@@ -113,6 +123,8 @@ public class Main {
     }
 }
 ```
+运行结果:
+Derived::show() called
 
 #### 6.
 ```
@@ -132,6 +144,8 @@ public class MainClass {
     }
 }
 ```
+运行结果:
+10
 
 #### 7.
 ```
@@ -155,6 +169,8 @@ public class Test
     } 
 } 
 ```
+运行结果:
+Inside ClassTwo
 
 #### 8.
 ```
@@ -176,6 +192,11 @@ class Derived extends Test {
     } 
 } 
 ```
+运行结果:
+输出错误
+
+Derived
+
 #### 9.
 ```
 class ClassOne
@@ -203,7 +224,10 @@ public class Test
     public static void main(String[] args) 
     { 
         ClassOne obj = new ClassTwo();
-        obj.getValue(); 
+        obj.getValue();         // 应该强制转换为((ClassTwo) obj).getValue();
     } 
 } 
 ```
+运行结果:
+ClassTwo
+

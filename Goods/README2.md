@@ -24,6 +24,9 @@ class MainClass {
     }
 }
 ```
+运行结果:
+My Method
+
 #### 2.
 ```
 interface A { 
@@ -53,6 +56,9 @@ public class Test extends B {
     } 
 }
 ```
+运行结果:
+getInfo
+
 #### 3.
 ```
 interface A
@@ -64,10 +70,12 @@ class B implements A
 {
     void methodB()
     {
-        i = 222;
+        i = 222;    //无法为最终变量i分配值
     }
 }
 ```
+运行结果:
+无法运行
 
 #### 4.以下内容是否编译通过，如果不能请指出错误原因
 ```
@@ -75,10 +83,13 @@ class A {
     //Class A
 }
  
-interface B extends A {
+interface B extends A {     //A前需要接口
     //Interface B extending Class A
 }
 ```
+运行结果:
+无法运行
+
 #### 5.
 ```
 interface P {
@@ -111,6 +122,10 @@ public class MainClass {
     }
 }
 ```
+运行结果:
+QQQQPPPP 
+PPPPQQQQ
+
 #### 6.
 ```
 class A implements B
@@ -136,10 +151,12 @@ public class MainClass
     }
 }
 ```
+运行结果:
+4
 
 ####  7.以下内容是否编译通过，如果不能请指出错误原因
 ```
-interface A
+interface A     //类型错误 && 非法类型开始
 {
     {
         System.out.println("Interface A");
@@ -151,6 +168,10 @@ interface A
     }
 }
 ```
+运行结果:
+编译错误
+无法运行
+
 ####  8.以下内容是否编译通过，如果不能请指出错误原因
 ```
 interface ABC
@@ -167,6 +188,10 @@ interface PQR extends ABC
 	public void methodTwo();
 }
 ```
+运行结果:
+编译通过
+无法运行输出结果
+
 #### 9.
 ```
 interface ABC {
@@ -197,6 +222,11 @@ public class MainClass {
 	}
 }
 ```
+运行结果:
+编译通过
+输出结果错误
+
+
 #### 10.
 ```
 interface X {
@@ -229,6 +259,11 @@ public class MainClass {
     }
 }
 ```
+运行结果:
+A
+B
+A
+A
 
 #### 11.
 ```
@@ -262,8 +297,11 @@ public class MainClass {
         System.out.println(one.s);
     }
 }
-
 ```
+运行结果:
+NOT FINALFINAL
+FINAL
+
 #### 12.
 ```
 interface X {
@@ -290,6 +328,9 @@ public class MainClass
     }
 }
 ```
+运行结果:
+CLASS Y
+
 #### 13.
 ```
 interface A {
@@ -302,30 +343,36 @@ interface C {
     int methodC();
 }
 class D implements A, B, C {
-    int i = 999+111;
+    int i = 999+111;        //999+111 = 1110
     public int methodA() {
-        i =+ i / i;
-        return i;
+        i =+ i / i;         //1110/1110 = 1
+        return i;           //1
     }
     public int methodB() {
-        i =- i * i;   
-        return i;
+        i =- i * i;         //-1*1
+        return i;           //-1
     }
     public int methodC(){
-        i = ++i - --i;     
-        return i;
+        i = ++i - --i;      //0-(-1)
+        return i;           //1
     }
 }
 public class MainClass{
     public static void main(String[] args) {
         D d = new D();       
-        System.out.println(d.i);
-        System.out.println(d.methodA());
-        System.out.println(d.methodB());
-        System.out.println(d.methodC());
+        System.out.println(d.i);            //1110
+        System.out.println(d.methodA());    //1
+        System.out.println(d.methodB());    //-1
+        System.out.println(d.methodC());    //1
     }
 }
 ```
+运行结果:
+1110
+1
+-1
+1
+
 #### 14.
 ```
 interface A {
@@ -355,14 +402,19 @@ class D extends C implements A, B {
 public class MainClass {
 	public static void main(String[] args) {
 		C c = new C();		
-		System.out.println(c.methodA());
-		System.out.println(c.methodB());
+		System.out.println(c.methodA());    //A+B
+		System.out.println(c.methodB());    //B+A
 		c = new D();
-		System.out.println(c.methodA());
-		System.out.println(c.methodB());
+		System.out.println(c.methodA());    //D+B+A
+		System.out.println(c.methodB());    //B+A
 	}
 }
 ```
+运行结果:
+AAABBB
+BBBAAA
+DDDBBBAAA
+BBBAAA
 
 #### 15.
 ```
@@ -374,12 +426,15 @@ interface Y extends X {
     void methodY();
 }
  
-class Z implements Y {
+class Z implements Y {      //Z不是抽象的, 并且未覆盖X中的抽象方法methodX()
     public void methodY() {
         System.out.println("Method Y");
     }
 }
 ```
+运行结果:
+无法运行    //找不到或无法加载主类 MainClass
+
 #### 16.
 ```
 abstract class A {
@@ -411,6 +466,10 @@ public class MainClass {
     }
 }
 ```
+运行结果:
+Number
+Object
+Number
 
 #### 17.
 ```
@@ -447,3 +506,7 @@ public class MainClass {
     }
 }
 ```
+运行结果:
+2
+3
+3

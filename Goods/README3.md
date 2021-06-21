@@ -9,7 +9,6 @@
 */
 Object set(int index, Object element);
 
-
 /**
  * 根据下标获取元素
  *
