@@ -1,4 +1,4 @@
-package Test.Person.test;
+package Test.phone;
 
 public class Product {
     /*属性

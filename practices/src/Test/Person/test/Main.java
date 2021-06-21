@@ -1,4 +1,4 @@
-package Test.phone.test;
+package Test.Person.test;
 
 public class Main {
 
