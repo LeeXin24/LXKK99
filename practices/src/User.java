@@ -7,6 +7,9 @@ public class User {
     private String  address;
     private String  phone;  // 电话号码太长 不可以用int
 
+    public User(String 李四光, int i) {
+    }
+
     public String getIdCard() {
         return idCard;
     }

@@ -83,7 +83,7 @@ class A {
     //Class A
 }
  
-interface B extends A {     //A前需要接口
+interface B extends A {     //接口只能继承接口
     //Interface B extending Class A
 }
 ```
@@ -426,7 +426,7 @@ interface Y extends X {
     void methodY();
 }
  
-class Z implements Y {      //Z不是抽象的, 并且未覆盖X中的抽象方法methodX()
+class Z implements Y {      //Z不是抽象的, 并且未覆盖X中的抽象方法methodX()     //接口的方法要全部实现
     public void methodY() {
         System.out.println("Method Y");
     }

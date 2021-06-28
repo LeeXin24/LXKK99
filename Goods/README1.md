@@ -2,7 +2,7 @@
 #### 1.
 ```
 class Base {
-    final public void show() {
+    final public void show() {              //final
        System.out.println("Base::show() called");
     }
 }
@@ -88,7 +88,7 @@ class Base {
 }
   
 class Derived extends Base {
-    private void foo() { System.out.println("Derived"); } //Derived中的foo()无法覆盖Base中的foo()
+    private void foo() { System.out.println("Derived"); } //Derived中的foo()无法覆盖Base中的foo()   //private
 }
   
 public class Main {
