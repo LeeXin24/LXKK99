@@ -1,5 +1,5 @@
 import java.io.*;
-
+//1.字节流
 public class User {
     public static void main(String[] args)throws IOException {
         File file = new File("upload/User.txt");

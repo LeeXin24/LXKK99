@@ -1,7 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56cb1edc-29c2-40ad-9dd6-ca230b2faec0" name="Default Changelist" comment="2021.06.29更新" />
+    <list default="true" id="56cb1edc-29c2-40ad-9dd6-ca230b2faec0" name="Default Changelist" comment="2021.06.29更新">
+      <change afterPath="$PROJECT_DIR$/Dog &amp; Cat/Dog &amp; Cat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dog &amp; Cat/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dog &amp; Cat/src/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dog &amp; Cat/src/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dog &amp; Cat/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Goods/Goods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Goods/README1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Goods/README2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Goods/README3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Goods/README4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Goods/src/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Goods/src/Electronics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Goods/src/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Goods/src/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Goods/src/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Goods/src/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Goods/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFile/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFile/src/User01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFile/src/User02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JiHe/JiHe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JiHe/OUTPUT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JiHe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JiHe/src/pra/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JiHe/src/pra/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JiHe/src/pra/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JiHe/src/pra/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JiHe/src/pra2/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JiHe/src/pra2/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JiHe/src/pra2/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaTools/MaTools.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaTools/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaTools/src/MaTools/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaTools/src/MaTools/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaTools/src/MaTools/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaTools/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaTools/src/TestToBe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeiJu/MeiJu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeiJu/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeiJu/src/Week.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/DButil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/MethodFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/StringBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ques/Ques.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ques/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ques/src/Elephant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ques/src/Fridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ques/src/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ques/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/Shopping.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/pojo/Business.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/pojo/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/service/BusinessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/service/impl/BusinessServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/util/DataUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFile/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFile/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/JavaJiHe.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/pra/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/pra/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/pra/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/pra/Team.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/pra2/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/pra2/MyException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/pra2/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/core/MyCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/core/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/core2/MyCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/core3/MyCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/core4/LinekdListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/core5/SetDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/core5/TreeSetDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/mapDemo/MapPra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/mapDemo/MapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/mapDemo/TreeMapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFile/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFile/User.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +127,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaJiHe/src" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Shopping/src/practice/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JiHe/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -56,42 +144,49 @@
     </force-push-targets>
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Electronics" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\LXKK99\JiHe\src" />
       <recent name="D:\work\LXKK99\JavaJiHe\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\LXKK99\Practice\src\Person" />
       <recent name="D:\work\LXKK99\JavaJiHe\src\pra" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.User">
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="par2.LinkedList" />
-      <module name="JavaJiHe" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="par2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="应用程序.Time">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Dog &amp; Cat" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="par.Main" />
-      <module name="JavaJiHe" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="par.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainClass" />
+      <module name="MaTools" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="User" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Goods" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Time" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Time" />
+      <module name="Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="User02" />
       <module name="JavaFile" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,9 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.User" />
-        <item itemvalue="应用程序.LinkedList" />
-        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.Time" />
+        <item itemvalue="应用程序.User02" />
+        <item itemvalue="应用程序.Main (1)" />
+        <item itemvalue="应用程序.MainClass" />
+        <item itemvalue="应用程序.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +264,7 @@
       <workItem from="1624928344710" duration="5996000" />
       <workItem from="1624943725007" duration="7047000" />
       <workItem from="1624952629617" duration="10000" />
+      <workItem from="1624952750239" duration="4966000" />
     </task>
     <task id="LOCAL-00001" summary="2021.06.28更新">
       <created>1624887015759</created>
@@ -189,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624928747862</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2021.06.29更新">
+      <created>1624952820333</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624952820333</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,5 +346,6 @@
     <MESSAGE value="2021.06.28更新" />
     <MESSAGE value="2021.06.29更新" />
     <option name="LAST_COMMIT_MESSAGE" value="2021.06.29更新" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
