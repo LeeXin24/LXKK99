@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56cb1edc-29c2-40ad-9dd6-ca230b2faec0" name="Default Changelist" comment="2021.06.29更新" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1u3uD7093AJUbhhXMizMQOOMIxW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaJiHe/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="项目" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\LXKK99\JavaJiHe\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\LXKK99\JavaJiHe\src\pra" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.User">
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="par2.LinkedList" />
+      <module name="JavaJiHe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="par2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="par.Main" />
+      <module name="JavaJiHe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="par.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="User" />
+      <module name="JavaFile" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="LXKK99" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="LXKK99" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.User" />
+        <item itemvalue="应用程序.LinkedList" />
+        <item itemvalue="应用程序.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <created>1623906471446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623906471446</updated>
+      <workItem from="1623906473300" duration="940000" />
+      <workItem from="1623914758023" duration="14000" />
+      <workItem from="1623914798286" duration="3407000" />
+      <workItem from="1623918453075" duration="1376000" />
+      <workItem from="1623980566020" duration="294000" />
+      <workItem from="1623988709869" duration="671000" />
+      <workItem from="1623993379127" duration="1210000" />
+      <workItem from="1624002768078" duration="628000" />
+      <workItem from="1624011653135" duration="294000" />
+      <workItem from="1624011973329" duration="7000" />
+      <workItem from="1624012010298" duration="225000" />
+      <workItem from="1624200188754" duration="27000" />
+      <workItem from="1624237263868" duration="948000" />
+      <workItem from="1624239040776" duration="1916000" />
+      <workItem from="1624257376663" duration="612000" />
+      <workItem from="1624258156600" duration="222000" />
+      <workItem from="1624265121895" duration="615000" />
+      <workItem from="1624268501046" duration="619000" />
+      <workItem from="1624329194075" duration="1581000" />
+      <workItem from="1624349976916" duration="935000" />
+      <workItem from="1624351198702" duration="4309000" />
+      <workItem from="1624848670266" duration="615000" />
+      <workItem from="1624866612004" duration="424000" />
+      <workItem from="1624867272881" duration="2196000" />
+      <workItem from="1624886642145" duration="1288000" />
+      <workItem from="1624888255070" duration="773000" />
+      <workItem from="1624889480108" duration="4057000" />
+      <workItem from="1624896494668" duration="178000" />
+      <workItem from="1624928344710" duration="5996000" />
+      <workItem from="1624943725007" duration="7047000" />
+      <workItem from="1624952629617" duration="10000" />
+    </task>
+    <task id="LOCAL-00001" summary="2021.06.28更新">
+      <created>1624887015759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624887015759</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2021.06.28更新">
+      <created>1624889620387</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624889620387</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2021.06.29更新">
+      <created>1624928747862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624928747862</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="69fd75d7-9e96-48a7-8efa-8cdcee427cd0">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="69fd75d7-9e96-48a7-8efa-8cdcee427cd0" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="3000" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/LXKK99" />
+    </ignored-roots>
+    <MESSAGE value="2021.06.28更新" />
+    <MESSAGE value="2021.06.29更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021.06.29更新" />
+  </component>
+</project>
