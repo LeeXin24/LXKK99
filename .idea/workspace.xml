@@ -2,97 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56cb1edc-29c2-40ad-9dd6-ca230b2faec0" name="Default Changelist" comment="2021.06.29更新">
-      <change afterPath="$PROJECT_DIR$/Dog &amp; Cat/Dog &amp; Cat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dog &amp; Cat/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dog &amp; Cat/src/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dog &amp; Cat/src/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dog &amp; Cat/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Goods/Goods.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Goods/README1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Goods/README2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Goods/README3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Goods/README4.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Goods/src/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Goods/src/Electronics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Goods/src/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Goods/src/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Goods/src/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Goods/src/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Goods/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaFile/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaFile/src/User01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaFile/src/User02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JiHe/JiHe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JiHe/OUTPUT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JiHe/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JiHe/src/pra/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JiHe/src/pra/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JiHe/src/pra/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JiHe/src/pra/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JiHe/src/pra2/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JiHe/src/pra2/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JiHe/src/pra2/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaTools/MaTools.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaTools/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaTools/src/MaTools/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaTools/src/MaTools/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaTools/src/MaTools/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaTools/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaTools/src/TestToBe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiJu/MeiJu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiJu/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiJu/src/Week.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/DButil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/MethodFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/StringBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ques/Ques.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ques/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ques/src/Elephant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ques/src/Fridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ques/src/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ques/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopping/Shopping.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/pojo/Business.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/pojo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/service/BusinessService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/service/impl/BusinessServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shopping/src/practice/util/DataUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFile/src/ReadVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFile/src/TestTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFile/src/User03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFile/src/XmlDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFile/src/XmlDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/九九乘法表.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/图片1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/图片2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/类的访问控制符.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/WIN.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/WIN0.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/WIN1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/WIN2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/WIN3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/WIN4.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/WIN5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/WIN6.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/WIN7.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/WIN8.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/WIN9.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/少年 - 梦然.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LXKK99.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LXKK99.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaFile/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFile/src/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/JavaJiHe.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/pra/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/pra/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/pra/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/pra/Team.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/pra2/LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/pra2/MyException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/pra2/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/core/MyCollection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/core/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/core2/MyCollection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/core3/MyCollection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/core4/LinekdListDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/core5/SetDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/core5/TreeSetDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/mapDemo/MapPra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/mapDemo/MapTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJiHe/src/src/com/yuanren/mapDemo/TreeMapDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFile/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFile/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dog &amp; Cat/Dog &amp; Cat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dog &amp; Cat/Dog &amp; Cat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Goods/Goods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Goods/Goods.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFile/JavaFile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFile/JavaFile.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFile/src/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFile/src/User01.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFile/src/User01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFile/src/User02.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFile/src/User02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JiHe/JiHe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JiHe/JiHe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaTools/MaTools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MaTools/MaTools.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiJu/MeiJu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MeiJu/MeiJu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ques/Ques.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ques/Ques.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shopping/Shopping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Shopping/Shopping.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFile/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFile/User2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/User.txt" beforeDir="false" afterPath="$PROJECT_DIR$/upload/User.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -109,6 +77,9 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="1u3uD7093AJUbhhXMizMQOOMIxW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -128,15 +99,16 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Shopping/src/practice/service" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JiHe/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaFile/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="项目" />
+    <property name="project.structure.last.edited" value="SDK" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.textmate.bundles" />
   </component>
   <component name="Push.Settings">
     <force-push-targets>
@@ -148,6 +120,8 @@
       <recent name="Electronics" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\LXKK99\JavaFile\src" />
+      <recent name="D:\work\LXKK99" />
       <recent name="D:\work\LXKK99\JiHe\src" />
       <recent name="D:\work\LXKK99\JavaJiHe\src" />
     </key>
@@ -156,31 +130,10 @@
       <recent name="D:\work\LXKK99\JavaJiHe\src\pra" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Time">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Dog &amp; Cat" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainClass" />
-      <module name="MaTools" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Goods" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Time" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Time" />
-      <module name="Practice" />
+  <component name="RunManager" selected="应用程序.XmlDemo2">
+    <configuration name="User01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="User01" />
+      <module name="JavaFile" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,6 +145,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="User03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="User03" />
+      <module name="JavaFile" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="XmlDemo" />
+      <module name="JavaFile" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="XmlDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="XmlDemo2" />
+      <module name="JavaFile" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -201,6 +177,20 @@
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
@@ -218,17 +208,14 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Time" />
-        <item itemvalue="应用程序.User02" />
-        <item itemvalue="应用程序.Main (1)" />
-        <item itemvalue="应用程序.MainClass" />
-        <item itemvalue="应用程序.Test" />
+        <item itemvalue="应用程序.XmlDemo2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
+      <changelist id="56cb1edc-29c2-40ad-9dd6-ca230b2faec0" name="Default Changelist" comment="2021.06.29更新" />
       <created>1623906471446</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -264,7 +251,13 @@
       <workItem from="1624928344710" duration="5996000" />
       <workItem from="1624943725007" duration="7047000" />
       <workItem from="1624952629617" duration="10000" />
-      <workItem from="1624952750239" duration="4966000" />
+      <workItem from="1624952750239" duration="9816000" />
+      <workItem from="1624962654513" duration="24000" />
+      <workItem from="1624970544782" duration="1531000" />
+      <workItem from="1625015378196" duration="4880000" />
+      <workItem from="1625032747258" duration="490000" />
+      <workItem from="1625033259059" duration="1233000" />
+      <workItem from="1625034558018" duration="3007000" />
     </task>
     <task id="LOCAL-00001" summary="2021.06.28更新">
       <created>1624887015759</created>
@@ -294,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624952820333</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2021.06.29更新">
+      <created>1624957895340</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624957895340</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
