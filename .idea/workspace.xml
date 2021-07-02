@@ -1,58 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56cb1edc-29c2-40ad-9dd6-ca230b2faec0" name="Default Changelist" comment="2021.06.29更新">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaFile/src/ReadVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaFile/src/TestTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaFile/src/User03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaFile/src/XmlDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaFile/src/XmlDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/九九乘法表.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/图片1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/图片2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/类的访问控制符.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/WIN.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/WIN0.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/WIN1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/WIN2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/WIN3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/WIN4.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/WIN5.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/WIN6.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/WIN7.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/WIN8.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/WIN9.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/少年 - 梦然.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LXKK99.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LXKK99.iml" afterDir="false" />
+    <list default="true" id="56cb1edc-29c2-40ad-9dd6-ca230b2faec0" name="Default Changelist" comment="2021.06.30更新">
+      <change afterPath="$PROJECT_DIR$/Cmd/Cmd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cmd/src/cp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cmd/src/ls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cmd/src/rm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/HomeWork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_eight/LX01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_eight/LX02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_eight/LX03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_eight/LX04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_eleven/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_eleven/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_eleven/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_eleven/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_eleven/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_eleven/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_eleven/Test06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_eleven/Test07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_eleven/javaSe第一周测试.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_fifteen/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_fifteen/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_fifteen/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_fifteen/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_fifteen/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_fourteen/1-基础练习.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_fourteen/2-基础练习.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_fourteen/3-基础练习.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_fourteen/4-循环+数组练习.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_fourteen/5-循环+数组练习.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_seven/2021.06.07作业.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_seven/ZY01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_seven/ZY02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_seven/ZY03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_seven/ZY04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_seven/ZY05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/June_seven/ZY06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/june_four/ZY01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/src/june_four/屏幕截图 2021-06-04 181016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFile/src/TestJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFile/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/San/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/San/San.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/San/post.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/San/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/San/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/San/src/entity/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/San/src/entity/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/San/src/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/San/src/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/San/src/service/impl/UserServeltImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/San/src/util/UtilClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/San/type.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/San/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/pojo/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/pojo/PostType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/post.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/type.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/util/DataUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dog &amp; Cat/Dog &amp; Cat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dog &amp; Cat/Dog &amp; Cat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Goods/Goods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Goods/Goods.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaFile/JavaFile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFile/JavaFile.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaFile/src/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaFile/src/User01.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFile/src/User01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaFile/src/User02.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFile/src/User02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JiHe/JiHe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JiHe/JiHe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaTools/MaTools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MaTools/MaTools.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiJu/MeiJu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MeiJu/MeiJu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ques/Ques.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ques/Ques.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shopping/Shopping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Shopping/Shopping.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFile/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaFile/User2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/User.txt" beforeDir="false" afterPath="$PROJECT_DIR$/upload/User.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Goods/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Goods/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/WIN.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/WIN0.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/WIN1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/WIN2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/WIN3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/WIN4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/WIN5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/WIN6.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/WIN7.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/WIN8.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/WIN9.mp3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +105,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="2" />
   </component>
@@ -99,14 +134,15 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Shopping/src/practice/service" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaFile/src" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/fastjson-1.2.47.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDK" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.textmate.bundles" />
   </component>
@@ -120,49 +156,56 @@
       <recent name="Electronics" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\LXKK99\lib" />
       <recent name="D:\work\LXKK99\JavaFile\src" />
       <recent name="D:\work\LXKK99" />
       <recent name="D:\work\LXKK99\JiHe\src" />
       <recent name="D:\work\LXKK99\JavaJiHe\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\LXKK99\San" />
+      <recent name="D:\work\LXKK99\JavaFile" />
+      <recent name="D:\work\LXKK99\Test\src" />
+      <recent name="D:\work\LXKK99\lib" />
       <recent name="D:\work\LXKK99\Practice\src\Person" />
-      <recent name="D:\work\LXKK99\JavaJiHe\src\pra" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.XmlDemo2">
-    <configuration name="User01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="User01" />
-      <module name="JavaFile" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="User02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="User02" />
-      <module name="JavaFile" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="User03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="User03" />
-      <module name="JavaFile" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XmlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="XmlDemo" />
-      <module name="JavaFile" />
+  <component name="RunManager" selected="应用程序.Test (1)">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="Test" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="XmlDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="XmlDemo2" />
-      <module name="JavaFile" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="San" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="San" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="Test" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
@@ -208,7 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.XmlDemo2" />
+        <item itemvalue="应用程序.Test (1)" />
+        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.Demo" />
+        <item itemvalue="应用程序.test" />
+        <item itemvalue="应用程序.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +304,12 @@
       <workItem from="1625015378196" duration="4880000" />
       <workItem from="1625032747258" duration="490000" />
       <workItem from="1625033259059" duration="1233000" />
-      <workItem from="1625034558018" duration="3007000" />
+      <workItem from="1625034558018" duration="11137000" />
+      <workItem from="1625056851924" duration="1370000" />
+      <workItem from="1625101445942" duration="18055000" />
+      <workItem from="1625135093688" duration="283000" />
+      <workItem from="1625153332130" duration="38000" />
+      <workItem from="1625187916290" duration="10600000" />
     </task>
     <task id="LOCAL-00001" summary="2021.06.28更新">
       <created>1624887015759</created>
@@ -294,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624957895340</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2021.06.30更新">
+      <created>1625038947574</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625038947574</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +404,8 @@
     </ignored-roots>
     <MESSAGE value="2021.06.28更新" />
     <MESSAGE value="2021.06.29更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021.06.29更新" />
+    <MESSAGE value="2021.06.30更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021.06.30更新" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

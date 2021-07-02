@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cmd/Cmd.iml" filepath="$PROJECT_DIR$/Cmd/Cmd.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dog &amp; Cat/Dog &amp; Cat.iml" filepath="$PROJECT_DIR$/Dog &amp; Cat/Dog &amp; Cat.iml" />
       <module fileurl="file://$PROJECT_DIR$/Goods/Goods.iml" filepath="$PROJECT_DIR$/Goods/Goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork/HomeWork.iml" filepath="$PROJECT_DIR$/HomeWork/HomeWork.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic_03/JavaBasic_03.iml" filepath="$PROJECT_DIR$/JavaBasic_03/JavaBasic_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic_04/JavaBasic_04.iml" filepath="$PROJECT_DIR$/JavaBasic_04/JavaBasic_04.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic_05/JavaBasic_05.iml" filepath="$PROJECT_DIR$/JavaBasic_05/JavaBasic_05.iml" />
@@ -17,7 +19,9 @@
       <module fileurl="file://$PROJECT_DIR$/MeiJu/MeiJu.iml" filepath="$PROJECT_DIR$/MeiJu/MeiJu.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice/Practice.iml" filepath="$PROJECT_DIR$/Practice/Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ques/Ques.iml" filepath="$PROJECT_DIR$/Ques/Ques.iml" />
+      <module fileurl="file://$PROJECT_DIR$/San/San.iml" filepath="$PROJECT_DIR$/San/San.iml" />
       <module fileurl="file://$PROJECT_DIR$/Shopping/Shopping.iml" filepath="$PROJECT_DIR$/Shopping/Shopping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
     </modules>
   </component>
 </project>
