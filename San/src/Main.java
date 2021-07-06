@@ -19,7 +19,7 @@ public class Main {
     public static void main(String[] args) {
         /*完成:1.程序启动后可以看到所有的帖子（未登录的状态下）,包括要显示帖子的作者 （6分）
         如: 帖子名称   帖子内容  帖子作者  帖子发布的时间  帖子类型*/
-        System.out.println("欢迎进入XXXXXXXXXXX论坛。。。。。。");
+        System.out.println("----------------欢迎进入XXXX论坛----------------");
         System.out.println("本站有如下帖子：");
         File postFile = new File("San/post.json");
         File userFile = new File("San/user.json");
