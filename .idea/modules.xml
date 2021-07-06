@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/Ques/Ques.iml" filepath="$PROJECT_DIR$/Ques/Ques.iml" />
       <module fileurl="file://$PROJECT_DIR$/San/San.iml" filepath="$PROJECT_DIR$/San/San.iml" />
       <module fileurl="file://$PROJECT_DIR$/Shopping/Shopping.iml" filepath="$PROJECT_DIR$/Shopping/Shopping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Socket/Socket.iml" filepath="$PROJECT_DIR$/Socket/Socket.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
     </modules>
   </component>
