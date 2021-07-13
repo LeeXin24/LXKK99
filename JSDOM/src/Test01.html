@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>练习一</title>
+</head>
+<body>
+<select id="first" onChange="nextChange()">
+    <option selected>请选择...</option>
+    <option>河北省</option>
+    <option>辽宁省</option>
+    <option>山东省</option>
+</select>
+<select id="second">
+    <option selected>请选择...</option>
+</select>
+<script>
+    function nextChange() {
+        var first = document.getElementById("first");
+        var second = document.getElementById("second");
+        second.options.length = 0; // 清除second下拉框的所有内容
+        if (first.selectedIndex === 1) {
+            second.options.add(new Option("请选择...", "0", false, true));  // 默认选中区
+            second.options.add(new Option("石家庄", "1"));//石家庄、邯郸、唐山、张家口、廊坊
+            second.options.add(new Option("邯郸", "2"));
+            second.options.add(new Option("唐山", "3"));
+            second.options.add(new Option("张家口", "4"));
+            second.options.add(new Option("廊坊", "5"));
+        }
+        if (first.selectedIndex === 2) {
+            second.options.add(new Option("请选择...", "0", false, true));  // 默认选中区
+            second.options.add(new Option("沈阳", "1"));//沈阳、大连、鞍山、抚顺、本溪
+            second.options.add(new Option("大连", "2"));
+            second.options.add(new Option("鞍山", "3"));
+            second.options.add(new Option("抚顺", "4"));
+            second.options.add(new Option("铁岭", "5"));
+        }
+
+        if (first.selectedIndex === 3) {
+            second.options.add(new Option("请选择...", "0", false, true));  // 默认选中区
+            second.options.add(new Option("济南", "1"));//济南、青岛、淄博、威海、烟台
+            second.options.add(new Option("青岛", "2"));
+            second.options.add(new Option("淄博", "3"));
+            second.options.add(new Option("威海", "4"));
+            second.options.add(new Option("烟台", "5"));
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多选器</title>
+</head>
+<script type="text/javascript">
+  function opcheckboxed(objName,type) {
+    var objNameList=document.getElementsByName(objName);
+    if(null!=objNameList){
+      for (let i = 0; i < objNameList.length; i++) {
+        if(objNameList[i].checked==true){
+          if(type != 'checkall') {  // 非全选
+            objNameList[i].checked=false;
+          }
+        } else {
+          if(type != 'uncheckall') {  // 非取消全选
+            objNameList[i].checked=true;
+          }
+        }
+
+      }
+    }
+  }
+  function setOthers() {
+               var checkboxs = document.getElementsByName("checkbox");
+                for (var i = 0; i < checkboxs.length; i++) {
+                      if (checkboxs[i].checked == false)
+                        checkboxs[i].checked = true;
+                     else
+                        checkboxs[i].checked = false;
+                  }
+             }
+  //全选/全不选操作
+         function setAllNo(){
+             var box = document.getElementById("boxid");
+             var checkboxs = document.getElementsByName("checkbox");
+                if(box.checked == false){
+                    for (var i = 0; i < checkboxs.length; i++) {
+                      checkboxs[i].checked = false;
+                         }
+                   }else{
+                     for (var i = 0; i < checkboxs.length; i++) {
+                       checkboxs[i].checked = true;
+                           }
+                  }
+          }
+    function submits() {
+      var checkboxs = document.getElementsByName("checkbox");
+      var text = document.getElementById("text");
+      text.innerText="";
+      for (let i = 0; i < checkboxs.length; i++) {
+        if(checkboxs[i].checked==true){
+        if(i==checkboxs.length-1){
+          text.innerText=text.innerText+=checkboxs[i].value;
+        } else {
+           text.innerText=text.innerText+=checkboxs[i].value+",";
+          }
+        }
+      }
+    }
+
+
+</script>
+<body>
+      你爱好的运动是？<input type="checkbox" id="boxid" onclick="setAllNo()">全选/全不选<br>
+      <input type="checkbox" name="checkbox" value="足球">足球 <input type="checkbox" name="checkbox" value="篮球">篮球
+      <input type="checkbox" name="checkbox" value="羽毛球">羽毛球 <input type="checkbox" name="checkbox" value="乒乓球">乒乓球<br>
+      <button onclick="opcheckboxed('checkbox', 'checkall')">全选</button>
+      <button onclick="opcheckboxed('checkbox', 'uncheckall')">取消全选</button>
+      <button onclick="setOthers()">反选</button>
+      <button onclick="submits()">提交</button><br>
+你选择的是：<font id="text"></font>
+</body>
+</html>

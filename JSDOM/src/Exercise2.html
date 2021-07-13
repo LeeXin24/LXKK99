@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>员工表</title>
+
+</head>
+<body>
+    <div style="width: 900px;height: 200px;text-align: center;">
+        <p>添加新员工</p>
+      <p>name:<input type="text" id="names">&nbsp;&nbsp;email:<input type="text" id="email">&nbsp;&nbsp;salary:<input type="text" id="salary"></p>
+      <p><input type="button" value="Submit" onclick="submitForm()"></p>
+      <br><br><hr/>
+    </div>
+
+  <div style="width:900px;height:400px;border: 2px solid black;">
+      <table border="1px" align="center" valign="middle" >
+          <thead>
+          <tr>
+            <th>name</th>
+            <th>email</th>
+            <th>salary</th>
+            <th></th>
+          </tr>
+          </thead>
+          <tbody name="tableBody">
+          <tr>
+            <td>Tom</td>
+            <td>tom@tom.com</td>
+            <td>5000</td>
+            <td><a href="#" onclick="deleTr(this)">Delete</a></td>
+          </tr>
+        <tr>
+          <td>Jerry</td>
+          <td>jerry@sohu.com</td>
+          <td>8000</td>
+          <td><a href="#" onclick="deleTr(this)">Delete</a></td>
+        </tr>
+        <tr>
+          <td>Bob</td>
+          <td>bob@tom.com</td>
+          <td>10000</td>
+          <td><a href="#" onclick="deleTr(this)">Delete</a></td>
+        </tr>
+          </tbody>
+      </table>
+  </div>
+
+</body>
+<script type="text/javascript">
+    function submitForm() {
+        var name=document.getElementById("names").value;//把文本框值赋值给变量str
+        var email=document.getElementById("email").value;
+        var salary=document.getElementById("salary").value;
+        var table=document.getElementsByName("tableBody")[0];
+        var sTr = document.createElement("tr");
+        var sTd1 = document.createElement("td");
+        sTd1.innerText=name;
+        sTr.appendChild(sTd1);
+        var sTd2 = document.createElement("td");
+        sTd2.innerText=email;
+        sTr.appendChild(sTd2);
+        var sTd3 = document.createElement("td");
+        sTd3.innerText=salary;
+        sTr.appendChild(sTd3);
+
+        var sTd4 = document.createElement("td");
+        var sOnclick = document.createElement("a");
+        sOnclick.href="javascript:;";
+        sOnclick.setAttribute("onclick","deleTr(this)");
+        sOnclick.innerText = "Delete";
+        sTd4.appendChild(sOnclick);
+        sTr.appendChild(sTd4);
+        table.appendChild(sTr);
+    }
+    function deleTr(_this) {
+        //通过this找到父级元素节点
+        var tr=_this.parentNode.parentNode;
+        //找到表格
+        var tbody=tr.parentNode;
+        //删除行
+        tbody.removeChild(tr);
+    }
+</script>
+</html>

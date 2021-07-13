@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习五</title>
+    <script>
+        // 选中添加到右边
+        function selectedToRight(){
+            // 获取select2标签
+            var select2 = document.getElementById("select2");
+            // 获取select1标签
+            var select1 = document.getElementById("select1");
+            // 获取option
+            var option1 = select1.getElementsByTagName("option");
+            // 遍历
+            for (var i=0;i<option1.length;i++) {
+                var optioni = option1[i];
+                //是否被选中
+                if(optioni.selected == true){
+                    // 添加到select2里面
+                    select2.appendChild(optioni);
+                    //数组长度发生变化，需要处理
+                    i--;
+                }
+            }
+        }
+        // 选中添加到左边
+        function selectedToLeft(){
+            // 获取select2标签
+            var select2 = document.getElementById("select2");
+            // 获取select1标签
+            var select1 = document.getElementById("select1");
+            // 获取option
+            var option2 = select2.getElementsByTagName("option");
+            // 遍历
+            for (var i=0;i<option2.length;i++) {
+                var optioni = option2[i];
+                //是否被选中
+                if(optioni.selected == true){
+                    // 添加到select1里面
+                    select1.appendChild(optioni);
+                    //数组长度发生变化，需要处理
+                    i--;
+                }
+            }
+        }
+        // 全部添加到右边
+        function allToRight(){
+            // 获取select2标签
+            var select2 = document.getElementById("select2");
+            // 获取select1标签
+            var select1 = document.getElementById("select1");
+            // 获取option
+            var option1 = select1.getElementsByTagName("option");
+            // 遍历
+            for (var i=0;i<option1.length;i++) {
+                var optioni = option1[i];
+                // 添加到select2里面
+                select2.appendChild(optioni);
+                //数组长度发生变化，需要处理
+                i--;
+            }
+        }
+        // 全部添加到左边
+        function allToLeft(){
+            // 获取select2标签
+            var select2 = document.getElementById("select2");
+            // 获取select1标签
+            var select1 = document.getElementById("select1");
+            // 获取option
+            var option2 = select2.getElementsByTagName("option");
+            // 遍历
+            for (var i=0;i<option2.length;i++) {
+                var optioni = option2[i];
+                // 添加到select1里面
+                select1.appendChild(optioni);
+                //数组长度发生变化，需要处理
+                i--;
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="s1" style="float: left;">
+    <div>
+        <select id="select1" multiple="multiple" style="width: 100px;height: 100px;">
+            <option>选项1</option>
+            <option>选项2</option>
+            <option>选项3</option>
+            <option>选项4</option>
+            <option>选项5</option>
+        </select>
+        <div>
+            <input type="button" value="选中添加到右边" onclick="selectedToRight();"/><br />
+            <input type="button" value="全部添加到右边" onclick="allToRight();"/>
+        </div>
+    </div>
+</div>
+<div id="s2" >
+    <div>
+        <select id="select2" multiple="multiple" style="width: 100px;height: 100px;">
+            <option>选项6</option>
+            <option>选项7</option>
+            <option>选项8</option>
+        </select>
+
+        <div>
+            <input type="button" value="选中删除到左边" onclick="selectedToLeft();"/><br />
+            <input type="button" value="全部删除到左边" onclick="allToLeft();"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>

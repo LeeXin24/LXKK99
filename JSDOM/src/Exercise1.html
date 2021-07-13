@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>省份</title>
+  <script type="text/javascript">
+      var provinces=['请选择...','河北省','辽宁省','山东省'];
+      var city=[['请选择...','石家庄','邯郸','唐山','张家口','廊坊'],['请选择...','铁岭','抚顺','沈阳','朝阳','大连'],
+        ['请选择...','烟台','泰安','青岛','济南','曲阜']];
+      //生成有数据的下拉框
+      document.write("<select name='selPro' onchange='showCity(this)'>");
+      for (let i = 0; i < provinces.length; i++) {
+        document.write("<option value='"+i+"'>"+provinces[i]+"</option>");
+      }
+      document.write("</select>");
+      document.write("<select name='selCity'><option value='请选择...'>请选择...</option></select>");
+      function showCity(obj) {
+        var content="";
+        for (let i = 0; i < provinces.length; i++) {
+          if(obj.value==0){
+            content="<option value='请选择...'>请选择...</option>";
+            break;
+          }else {
+              for (let k = 0; k < city[parseInt(obj.value)-1].length; k++) {
+                  content=content+"<option value='"+city[parseInt(obj.value)-1][k]+"'>"+city[parseInt(obj.value)-1][k]+"</option>";
+              }
+              break;
+          }
+        }
+        document.getElementsByName("selCity")[0].innerHTML=content;
+      }
+
+  </script>
+</head>
+<body>
+</body>
+</html>

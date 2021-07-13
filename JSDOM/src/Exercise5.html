@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加删除移动</title>
+  <style type="text/css">
+    .selectbox .select-bar select {
+      width: 150px;
+      height: 200px;
+      border: 1px #A0A0A4 solid;
+      padding: 4px;
+      font-size: 14px;
+      font-family: "microsoft yahei";
+    }
+    .selectbox div{
+      float: left;
+    }
+    .selectbox .select-bar {
+      padding: 0 20px;
+    }
+  </style>
+
+  <script type="text/javascript">
+    function addToRight() {
+      //获取左边选框的对象
+      var leftObj = document.getElementById("select1");
+      //获取右边选框的对象
+      var rightObj = document.getElementById("select2");
+      // 测试：alert(leftObj.options[leftObj.selectedIndex].value);
+      //判断是否选中
+      if(leftObj.options[leftObj.selectedIndex] != null){
+        //选中左边选框的元素通过点击触发函数添加至右边选框
+        rightObj.appendChild(leftObj.options[leftObj.selectedIndex]);
+        //恢复其选中状态
+        rightObj.lastChild.selected = false;
+      }else{
+        alert("没有选项啊，大兄弟！");
+      }
+    }
+
+    function addToLeft() {
+      //获取左边选框的对象
+      var leftObj = document.getElementById("select1");
+      //获取右边选框的对象
+      var rightObj = document.getElementById("select2");
+      // 测试：alert(leftObj.options[leftObj.selectedIndex].value);
+      //判断是否选中
+      if(rightObj.options[rightObj.selectedIndex] != null){
+        //选中左边选框的元素通过点击触发函数添加至右边选框
+        leftObj.appendChild(rightObj.options[rightObj.selectedIndex]);
+        //恢复其选中状态
+        leftObj.lastChild.selected = false;
+      }else{
+        alert("没有选项啊，大兄弟！");
+      }
+    }
+    
+    function addAllToRight() {
+      //获取左边选框的对象
+      var leftObj = document.getElementById("select1");
+      //获取右边选框的对象
+      var rightObj = document.getElementById("select2");
+      for (let i = leftObj.length-1; i >=0 ; i--) {
+        //选中左边选框的元素通过点击触发函数添加至右边选框
+        rightObj.appendChild(leftObj.options[0]);
+      }
+
+    }
+
+    function addAllToLeft() {
+      //获取左边选框的对象
+      var leftObj = document.getElementById("select1");
+      //获取右边选框的对象
+      var rightObj = document.getElementById("select2");
+      for (let i = rightObj.length-1; i >=0 ; i--) {
+        //选中左边选框的元素通过点击触发函数添加至右边选框
+        leftObj.appendChild(rightObj.options[0]);
+      }
+
+    }
+
+  </script>
+</head>
+<body>
+<div class="selectbox">
+  <div class="select-bar">
+    <select multiple="multiple" id="select1">
+      <option value="选项1">选项1</option>
+      <option value="选项2">选项2</option>
+      <option value="选项3">选项3</option>
+      <option value="选项4">选项4</option>
+      <option value="选项5">选项5</option>
+      <option value="选项6">选项6</option>
+      <option value="选项7">选项7</option>
+      <option value="选项8">选项8</option>
+    </select>
+    <p><input type="button" onclick="addToRight()" value="选中添加到右边>>"/></p>
+    <p><input type="button" onclick="addAllToRight()" value="全部添加到右边>>"/></p>
+  </div>
+
+  <div class="select-bar">
+    <select multiple="multiple" id="select2"></select>
+
+    <p><input type="button" onclick="addToLeft()" value="<<选中添加到左边"/></p>
+    <p><input type="button" onclick="addAllToLeft()" value="<<全部添加到左边"/></p>
+
+  </div>
+
+
+</div>
+
+
+
+</body>
+</html>
