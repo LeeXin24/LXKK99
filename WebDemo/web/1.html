@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta  charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+    
+    <!-- 
+	需求1:普通的 超连接。
+	a 标签是超连接标签
+		href 属性是设置文档跳转的URL地址
+		target 是哪个窗口进行跳转	_blank,_self
+需求5：页面的锚点功能
+		先要通过使用A标签，设置name属性来定义一个锚点，然后再通过a标签连接的方式进行跳转，href="#锚点名"
+	 -->
+	<a href="http://www.baidu.com">百度</a>
+	<a href="2.html" target="_top">我要调到哪去</a>
+	<a name="top"> </a>
+	<a href="#abc">底部</a>
+	<!-- <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> -->
+	
+	<a href="#top">返回顶部</a>  <!-- 锚点功能 -->
+	<a name="abc"> </a>
+
+
+
+<!-- 比如网A中镶嵌iframe了网页B，网页B又镶嵌iframe了网页C
+
+：如果网页C中连接设置target=_parent，则跳将网页B去掉直接A中嵌入网页C中链接页面;
+而如果网页C中target=_top ，则直接跳出所有iframe框架，直接转向C中链接页面。
+ -->
+
+
+ 	<ul type="square">
+ 		<li>星际争霸1</li>
+		<li>星际争霸2</li>
+		<li>星际争霸3</li>
+		<li>星际争霸4</li>
+ 	</ul>
+
+
+
+
+ 		<ol type="I">
+ 			<li>
+ 				张三丰1
+ 			</li>
+ 			<li>
+ 				张三丰2
+ 			</li>
+ 			<li>
+ 				张三丰3
+ 			</li>
+ 			<li>
+ 				张三丰4
+ 			</li>
+ 		</ol>
+
+
+
+ 		<dl>
+ 			<dt>上海发打水
+ 				<dd>可能就是小标题的一个解释</dd>
+ 			</dt>
+ 			<dt>
+ 				峡谷出事了
+ 				<dd>xxxxxxx  time  address   event</dd>
+ 			</dt>
+ 		</dl>
+
+
+
+
+
+
+</body>
+</html>

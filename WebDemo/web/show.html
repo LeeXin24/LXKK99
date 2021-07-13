@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<!-- 第三种方式 外联样式表 -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- 第二种方式 -->
+	<style type="text/css">
+		/*#div1{
+			background-color:pink ;
+		}*/	
+
+		/*div{
+			font-size: 20px;	
+			background: url('img/public.jpg');	
+
+		}*/
+			/*表示id选择器*/
+		#div2{
+			font-size: 90px;	
+			background: url('img/welcome.jpeg');		
+		}
+		/*类选择器*/
+		.divclass{
+			font-size: 50px;	
+		}
+
+		#sp,.spp{
+			font-size: 60px;
+			color: red ;
+		}
+
+		div span{
+			color: blue;
+		}
+		/*伪类选择器*/
+
+		/*a:hover{
+			color: red;
+		}*/
+
+		/*div:hover{
+			font-size: 20px;	
+			background: url('img/public.jpg');	
+
+		}*/
+
+		/*a:visited{
+			color: yellow;
+		}*/
+
+		a:link{  /*待定*/
+			color: green;
+		}
+
+		a:active{  /*点击变色*/
+			color: yellow;
+		}
+
+
+			#divx{
+				color: pink;
+				font-size: 20px;
+				line-height: 90px;/*表示行高*/
+				display: block;
+			}
+
+			/*a{
+				 text-decoration: none; 去除超链接下划线
+			}*/
+
+		ol li a{
+			text-decoration: none;
+		}			
+
+		ol li{
+			width: 100px;
+			float: left;
+		}
+
+
+	</style>
+</head>
+<body>	
+			<!-- CSS的引入方式共有三种：行内样式>内部样式表>外部样式表。 -->    
+				<!-- <div id="div1" style="border: 1px red solid; height: 350px;width: 400px;">哈哈是</div>
+				<div id="div2"  style="border: 1px red solid;height: 350px;width: 400px;">哈哈是</div>
+				<div  class="divclass" style="border: 1px red solid;height: 350px;width: 400px;">哈哈是</div>
+
+
+				<span id="sp">哈哈试试</span>	
+				<div> <span>div里面的span设置样式</span>	</div>
+
+
+
+				<a href="http://www.baidu.com" target="_blank">08-css组合选择器.html</a>
+				<a href="05-标签名选择器.html" target="_blank">05-标签名选择器.html</a>
+				<a href="06-ID选择器.html" target="_blank">06-ID选择器.html</a> -->
+
+
+
+
+			<div id="div1" style="border: 1px red solid; height: 350px;width: 400px;">哈&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;哈是</div>
+
+			<a href="2.html" target="_self">2.html</a> 
+
+
+			<div id="divx">
+					哈哈哈是
+			</div>
+
+
+			<ol>
+				<li><a href="2.html" target="_self">1.html</a> </li>
+				<li><a href="2.html" target="_self">2.html</a> </li>
+				<li><a href="2.html" target="_self">3.html</a> </li>
+				<li><a href="2.html" target="_self">4.html</a> </li>
+				<li><a href="2.html" target="_self">5.html</a> </li>
+			</ol>
+
+
+</body>
+</html>

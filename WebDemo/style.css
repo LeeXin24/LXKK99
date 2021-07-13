@@ -1,0 +1,81 @@
+#div{
+    padding: 0;
+    margin: auto;
+    position: relative;
+}
+#top{
+    position: absolute;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+#div1{
+    background: orange;
+    position: absolute;
+    float: left;
+    margin-top: 220px;
+}
+#div1 li{
+    float: left;
+    width: 120px;
+    list-style: none;
+}
+#div1 a:hover{
+    text-decoration: none;
+    color: white;
+}
+#div1 ul{
+    margin-top: 5px;
+}
+#div2{
+    position: absolute;
+    float: left;
+    margin-top: 250px;
+}
+#div2 li{
+    float: top;
+    list-style: none;
+}
+#div3{
+    position: absolute;
+    float: left;
+    margin-left: 380px;
+    margin-top: 250px;
+}
+#div3 li {
+    float: top;
+    list-style: none;
+}
+#div4{
+    position: absolute;
+    float: left;
+    margin-left: 720px;
+    margin-top: 250px;
+}
+#div4 li {
+    float: top;
+    list-style: none;
+}
+#div5 {
+    position: absolute;
+    float: left;
+    margin-top: 950px;
+}
+#div6{
+    position: absolute;
+    float: left;
+    margin-left: 720px;
+    margin-top: 950px;
+}
+#div6 ul li{
+    color: red;
+}
+#div6 ul2 li {
+    list-style: none;
+}
+#div7 {
+    position: absolute;
+    float: left;
+    margin-top: 1550px;
+}

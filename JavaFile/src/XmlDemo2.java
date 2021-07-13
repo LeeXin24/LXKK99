@@ -25,7 +25,7 @@ public class XmlDemo2 {
      *
      */
     public static void main(String[] args) {
-        File file = new File("JavaFile_16/Student.xml");
+        File file = new File("JavaFile/Student.xml");
         SAXReader reader = new SAXReader();
         try {
             Document doc = reader.read(file);

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+  <script type="text/javascript">
+    var number1=document.getElementById("first").valueOf;
+    var number2=document.getElementById("second").valueOf;
+    console.log(x);
+    window,document.write(x);
+    console.log(y);
+    window,document.write(y);
+
+    function add(x,y){
+      return x + y ;
+    }
+    function sub(x,y){
+      return x - y ;
+    }
+    function mul(x,y){
+      return x * y ;
+    }
+    function exc(x,y){
+      return x / y ;
+    }
+  </script>
+</head>
+<body>
+<label for="first">第一个数:</label><input type="text" name="number1" id="first"><br>
+<label for="second">第二个数:</label><input type="text" name="number2" id="second"><br>
+    <button id="btn1" onclick="operator('+')">+</button>
+    <button id="btn2" onclick="operator('-')">-</button>
+    <button id="btn3" onclick="operator('*')">*</button>
+    <button id="btn4" onclick="operator('/')">/</button><br>
+<label for="result">输出结果:</label><input type="text" name="result" id="result">
+
+</body>
+</html>

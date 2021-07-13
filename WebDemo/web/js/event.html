@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>事件</title>
+
+	<style type="text/css">
+		
+	.username{
+		background-color: gray;
+	}
+
+
+	</style>
+
+
+	<script type="text/javascript">
+			
+		function changeDiv() {
+			var  dou=document.getElementById("div1");
+			dou.innerHTML="<div id='div2' style='width:200px;height:150px;border: 1px green solid;'><ol><li><a href=''>金三胖.html</a></li>"
+			+"<li><a href=''>金2胖.html</a></li>"
+			+"<li><a href=''>金1胖.html</a></li>"
+			+"<li><a href=''>金胖.html</a></li>"
+			+"<li><a href=''>金213胖.html</a></li>"
+			+"<li><a href=''>金2三胖.html</a></li></ol></div>";
+		}
+
+		function clearDiv() {
+			var  dou=document.getElementById("div1");
+			dou.innerHTML="";
+		}
+
+
+		/*function foucs() {
+			document.getElementById("username").setAttribute("class","username");
+		}*/
+
+
+		function clearStyle(){
+			/*document.getElementById("username").removeAttribute("class");*/
+			var  val=document.getElementById("username").value;
+			var  span=document.getElementById("sp");
+			if(val.length===6){
+				span.innerHTML="<font color='green'>长度合法</font>";
+				
+			}else{
+				span.innerHTML="<font color='red'>长度不合法</font>";
+			}	
+		}	
+
+
+		function showPro() {
+
+				var  pro=document.getElementById("pro");
+				var arr=['江苏省','安徽省','浙江','山东省','江西省','广东省'];
+				for (var i = 0; i < arr.length; i++) {
+				
+				var option=	document.createElement("option");
+					option.setAttribute("value",i);
+					option.appendChild(document.createTextNode(arr[i]));
+					pro.appendChild(option);
+
+				}
+
+
+		}
+
+		//省市联动
+		function changeCity(arg){
+				
+			
+			var  arr=[['南京市','南通市','苏州市'],['池州市','铜陵市','黄山市'],['杭州市','宁波市','嘉兴市'],
+			['德州市','济南市','青岛市'],['上饶市','赣州市','抚州市'],['深圳市','广州市','潮汕市']];
+			var  city=document.getElementById("city");
+
+			for (var j = 0; j < arr.length; j++) {
+				if (j === parseInt(arg)) {
+
+					var nodes = city.childNodes;   /*考虑到空白节点的问题*/
+
+					console.log(nodes.length);
+
+					for (var k = nodes.length - 1; k >= 0; k--) {
+
+						city.removeChild(nodes[k]);
+
+					}
+
+					for (var i = 0; i < arr[j].length; i++) {
+
+						var option = document.createElement("option");
+						option.setAttribute("value", arr[j][i]);
+						option.appendChild(document.createTextNode(arr[j][i]));
+						city.appendChild(option);
+					}
+				}
+			}
+		}
+		/*做一个轮播效果图*/	
+
+	</script>
+</head>
+<body onload="showPro()">
+
+	<div id="div1" style="width:200px;height:150px;border: 1px red solid;" 
+	onmouseover="changeDiv();" onmouseout="clearDiv();"></div>
+
+	<input type="text" name="username" id="username" placeholder="请输入用户名"  onblur="clearStyle()">
+	<span id="sp"></span><br>
+	<input type="password" name="password" id="password" placeholder="请输入密码"><br>
+	<input type="email" name="email" id="email" placeholder="请输入邮箱"><br>
+	请选择你的省份：<select name="provicen" id="pro" onchange="changeCity(this.value);"></select>
+	请选择你的城市：<select name="city" id="city"></select>
+
+</body>
+</html>

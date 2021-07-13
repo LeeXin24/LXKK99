@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>second</title>
+	<!-- <script type="text/javascript" src="javaScript/second.js"></script> -->
+<script type="text/javascript" >
+
+			/*window.open("https://www.baidu.com");  */
+
+				function operator(argument) {
+					var  number1=parseInt(document.getElementById("first").value);  /*加载先后顺序的问题*/
+					var  number2=parseInt(document.getElementById("secend").value);
+
+					var  result;
+					switch(argument){
+						case '+':
+							 	result=number1+number2;
+							 	break;
+						case '-':
+							result=	number1-number2;
+							break;
+						case '*':
+							result =number1*number2;
+							break;
+
+						case '/':
+							result = number1/number2;	
+							break;		
+					}	
+
+					document.getElementById("result").value=result;  //给输入框重新赋值
+
+				}	
+
+				function disptime(){
+
+					var  today = new  Date();
+					var hour=today.getHours();
+					var mm = today.getMinutes();
+					var ss = today.getSeconds();
+					
+					document.getElementById("myclock").innerHTML="<font color='red'>"+hour+":"+mm+":"+ss+"</font>";
+					//setTimeout('disptime()',1000); //用一次调用一次
+					setInterval('disptime()',1000); //用一次调用一次
+				}
+
+				
+			</script>
+	
+
+</head>
+<body onload="disptime()">
+		<!-- 时钟 -->		
+		<div id="myclock"></div>
+
+
+
+			第一个数:<input type="text" name="number1" id="first" value="12">
+			<br>
+			第二个数:<input type="text" name="number2" id="secend"><br>
+			<button id="btn1" onclick="operator('+')">加</button>
+			<button id="btn2" onclick="operator('-')">减</button>
+			<button id="btn3" onclick="operator('*')">*</button>
+			<button id="btn4" onclick="operator('/')">/</button><br>
+			结果:<input type="text" name="result" id="result">
+
+			
+</body>
+</html>

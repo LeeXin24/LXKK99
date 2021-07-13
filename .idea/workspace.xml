@@ -1,17 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56cb1edc-29c2-40ad-9dd6-ca230b2faec0" name="Default Changelist" comment="2021.07.06更新">
-      <change afterPath="$PROJECT_DIR$/Socket/src/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socket/src/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socket/src/test01/Recevie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socket/src/test01/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socket/src/test02/Recevie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socket/src/test03/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socket/src/test03/Server.java" afterDir="false" />
+    <list default="true" id="56cb1edc-29c2-40ad-9dd6-ca230b2faec0" name="Default Changelist" comment="2021.07.07更新">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/A.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Product.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Product[0].json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Socket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/src/test02/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/src/test02/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/src/test03/ServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/Study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/test01/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/src/天猫.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/SPED.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/Test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/Test02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/002.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/004.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/005.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/006.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/03 (2).gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/05 (2).gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/07 (2).gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/112.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/2011-12-09_200608.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/ahover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/bt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/index_40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/index_41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/index_42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/index_44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/index_45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/leftbottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/leftrepeat.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/lefttop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/rightbot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/rightcen.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/images/righttop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/box.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/img.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/img/public.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/img/welcome.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/js/event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/js/firstJs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/js/javaScript/second.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/js/reg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/js/secondJs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/test3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/web/天猫.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebDemo/首页.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据库.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MaTools/MaTools/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MaTools/MaTools/Test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFile/src/XmlDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFile/src/XmlDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/Study/src/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/San/user.json" beforeDir="false" afterPath="$PROJECT_DIR$/San/user.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Socket/src/test01/Recevie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/src/test01/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Socket/src/test01/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/src/test01/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Socket/src/test02/Recevie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Socket/src/test03/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/src/test03/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Socket/src/test03/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/src/test03/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +138,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -59,6 +175,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -66,7 +184,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Shopping/src/practice/service" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/fastjson-1.2.47.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,7 +195,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.textmate.bundles" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="Push.Settings">
     <force-push-targets>
@@ -85,41 +204,28 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="test03" />
       <recent name="Electronics" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\LXKK99\img" />
       <recent name="D:\work\LXKK99\lib" />
       <recent name="D:\work\LXKK99\JavaFile\src" />
       <recent name="D:\work\LXKK99" />
       <recent name="D:\work\LXKK99\JiHe\src" />
-      <recent name="D:\work\LXKK99\JavaJiHe\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\LXKK99\WebDemo" />
+      <recent name="D:\work\LXKK99\Study\src" />
+      <recent name="D:\work\LXKK99\Study\src\test01" />
+      <recent name="D:\work\LXKK99\Test" />
       <recent name="D:\work\LXKK99\San" />
-      <recent name="D:\work\LXKK99\JavaFile" />
-      <recent name="D:\work\LXKK99\Test\src" />
-      <recent name="D:\work\LXKK99\lib" />
-      <recent name="D:\work\LXKK99\Practice\src\Person" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.test">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test03.Client" />
-      <module name="Socket" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="Recevie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test01.Recevie" />
-      <module name="Socket" />
+  <component name="RunManager" selected="JavaScript 调试.test2.html">
+    <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test01.Test02" />
+      <module name="Study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test01.*" />
@@ -131,29 +237,9 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="Send" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test01.Send" />
-      <module name="Socket" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test03.Server" />
-      <module name="Socket" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Time" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Time" />
+      <module name="Study" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
@@ -192,6 +278,12 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration name="Test02.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LXKK99/WebDemo/Test02.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="test2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LXKK99/Study/test2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LXKK99" />
       <method v="2">
@@ -205,15 +297,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="应用程序.test" />
-        <item itemvalue="应用程序.Client" />
-        <item itemvalue="应用程序.Server" />
-        <item itemvalue="应用程序.Send" />
-        <item itemvalue="应用程序.Recevie" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -270,7 +353,28 @@
       <workItem from="1625414328461" duration="671000" />
       <workItem from="1625446948259" duration="19944000" />
       <workItem from="1625533276035" duration="2261000" />
-      <workItem from="1625535958731" duration="7606000" />
+      <workItem from="1625535958731" duration="7942000" />
+      <workItem from="1625562522533" duration="45000" />
+      <workItem from="1625562624623" duration="57000" />
+      <workItem from="1625562876246" duration="157000" />
+      <workItem from="1625563064414" duration="827000" />
+      <workItem from="1625581064793" duration="66000" />
+      <workItem from="1625620466702" duration="17025000" />
+      <workItem from="1625650460329" duration="621000" />
+      <workItem from="1625706282262" duration="9631000" />
+      <workItem from="1625750118703" duration="2149000" />
+      <workItem from="1625755753161" duration="10036000" />
+      <workItem from="1625793068805" duration="15897000" />
+      <workItem from="1626007356823" duration="11391000" />
+      <workItem from="1626026148281" duration="106000" />
+      <workItem from="1626051945399" duration="896000" />
+      <workItem from="1626057389329" duration="11907000" />
+      <workItem from="1626083156575" duration="84000" />
+      <workItem from="1626083265466" duration="13000" />
+      <workItem from="1626083298750" duration="122000" />
+      <workItem from="1626083449482" duration="2065000" />
+      <workItem from="1626105891143" duration="8474000" />
+      <workItem from="1626138528863" duration="15486000" />
     </task>
     <task id="LOCAL-00001" summary="2021.06.28更新">
       <created>1624887015759</created>
@@ -328,7 +432,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625560630945</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2021.07.06更新">
+      <created>1625562295860</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1625562295860</updated>
+    </task>
+    <task id="LOCAL-00010" summary=" JavaScript">
+      <created>1626166373903</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626166373903</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +500,9 @@
     <MESSAGE value="2021.06.30更新" />
     <MESSAGE value="2021.07.02更新" />
     <MESSAGE value="2021.07.06更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021.07.06更新" />
+    <MESSAGE value="2021.07.07更新" />
+    <MESSAGE value=" JavaScript" />
+    <option name="LAST_COMMIT_MESSAGE" value=" JavaScript" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

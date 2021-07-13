@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>这是第一个javascript</title>
+	<!-- 引用外部js -->
+	<script type="text/javascript" src=""></script>
+
+	<script type="text/javascript">
+		var  number=12;
+			 number="哈哈哈是撒谎";
+			 number=12.21;
+			 number=true;
+
+			 	alert("我最帅");  /*弹出输出框*/
+			 	var  str=prompt("请输入","张安分");/*弹出输入框*/
+			 	alert("我最帅"+str);
+
+		console.log("这个数是:"+number);		 
+		/*把这个结果写到页面上去*/	 
+		window.document.write("这个数是:"+number+"<br>");
+
+		var  arr=[6,3,123,1,2412,44,41]; 
+
+	
+		SORT(arr);  /*方法调用*/
+
+			for (var i = 0; i < arr.length; i++) {
+				document.write("这个数是:"+arr[i]+"<br>");
+			}	
+
+
+	function add(x,y) {
+
+		return  x+y;
+	}	
+			
+	function  SORT(arr){
+		for (var i = 0; i < arr.length; i++) {
+			for (var j = 0; j < arr.length-1-i; j++) {
+				if(arr[j]>arr[j+1]){
+					var  temp=arr[j];
+					arr[j]=arr[j+1];
+					arr[j+1]=temp;	
+				}
+			}
+		}
+
+	}
+
+
+	</script>	
+
+</head>
+<body>
+		第一个数:<input type="text" name="number1" id="first">
+		<br>
+		第二个数:<input type="text" name="number2" id="secend"><br>
+		<button>加</button><button>减</button><button>*</button><button>/</button><br>
+		结果:<input type="text" name="result" id="result">
+
+
+</body>
+</html>

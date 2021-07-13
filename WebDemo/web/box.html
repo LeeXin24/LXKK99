@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>盒子模型</title>
+
+<style type="text/css">
+	
+	* {
+		margin: 0px ;
+		padding: 0px;
+	}
+	/*如何是上述写法  页面所有标签的内外边距全部为0   要自己从新手动添加*/
+
+	#div1{
+		/*margin-top: 100px;
+		padding-top: 50px;	
+		margin-left: 100px;*/
+		/*position: absolute; */ /*要对父元素进行决定定位*/
+	}
+	#div2{
+			margin-top: 50px;
+			padding-top: 20px;	
+			/*margin-left: 50px;*/
+	}
+
+	#div3{
+			margin-top: 20px;
+			padding-top: 10px;	
+			margin-left: 30px;	
+		}
+
+	/*#div3{
+		position: relative;
+		left: 600px;	
+	}	*/
+
+	/*相对定位
+		relative：相对于原来位置移动，元素设置此属性之后仍然处在文档流中，不影响其他元素的布局
+
+	
+	绝对定位	：
+		absolute:元素会脱离文档流，如果设置偏移量，会影响其他元素的位置定位				
+	*/	
+
+
+	#div2{
+		position: absolute;
+		left: 10px;  /*本身的外边距的问题会影响对于父元素的一个定位准确度*/
+	}
+
+
+	#div1,#div6,#div9{
+		float: left;
+		position: absolute;
+	}
+	#div1{
+		z-index: 2;
+	}
+
+	#div6{
+		z-index: 9;
+	}
+
+	#div9{
+		z-index: 5;
+	}
+
+	#div6:hover{
+		z-index: 0;
+	}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+	<div  id="div1" style="width: 300px;height: 300px; background: red;background-color:red ;">
+		<div  id="div2" style="width: 200px; height: 150px; background: green;background-color:green ;">
+			<div id="div3" style="width: 50px; height: 50px; background: blue;background-color:yellowgreen ;"></div>
+		</div>
+	</div>
+
+
+	<div  id="div6" style="width: 300px;height: 300px; background: red;background-color:pink;">
+		<div  id="div7" style="width: 200px; height: 150px; background: green;background-color:green ;">
+			<div id="div8" style="width: 50px; height: 50px; background: blue;background-color:yellowgreen ;"></div>
+		</div>
+	</div>
+
+	<div  id="div9" style="width: 300px;height: 300px; background: red;background-color:blue ;">
+		<div  id="div10" style="width: 200px; height: 150px; background: green;background-color:green ;">
+			<div id="div11" style="width: 50px; height: 50px; background: blue;background-color:yellowgreen ;"></div>
+		</div>
+	</div>
+
+</body>
+</html>
