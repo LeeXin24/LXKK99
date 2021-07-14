@@ -1,131 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="56cb1edc-29c2-40ad-9dd6-ca230b2faec0" name="Default Changelist" comment="2021.07.07更新">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socket/A.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socket/Product.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socket/Product[0].json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socket/Socket.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socket/src/test02/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socket/src/test02/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Socket/src/test03/ServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/Study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/src/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/src/test01/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/src/test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/src/天猫.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/SPED.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/Test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/Test02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/002.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/004.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/005.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/006.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/021.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/03 (2).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/03.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/04.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/05 (2).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/05.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/06.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/07 (2).gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/07.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/08.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/09.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/112.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/201.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/2011-12-09_200608.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/ahover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/bt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/index_40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/index_41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/index_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/index_44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/index_45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/leftbottom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/leftrepeat.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/lefttop.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/rightbot.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/rightcen.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/images/righttop.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/box.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/img.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/img/public.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/img/welcome.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/js/event.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/js/firstJs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/js/javaScript/second.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/js/reg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/js/secondJs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/test3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/web/天猫.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDemo/首页.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据库.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="56cb1edc-29c2-40ad-9dd6-ca230b2faec0" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/jdbc/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/.idea/libraries/mysql_connector_java_8_0_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/lib/mysql-connector-java-8.0.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/TestConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaFile/src/XmlDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFile/src/XmlDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/src/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/Study/src/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/San/user.json" beforeDir="false" afterPath="$PROJECT_DIR$/San/user.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/src/test01/Recevie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/src/test01/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/src/test01/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/src/test01/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/src/test02/Recevie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/src/test03/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/src/test03/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/src/test03/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/src/test03/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
